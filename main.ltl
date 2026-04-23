@@ -1,0 +1,15 @@
+// ltl-secp256k1/main.ltl
+//
+// Bitcoin-compatible secp256k1 curve ops.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-secp256k1 v0.1.0")
+    io::println("Bitcoin-compatible secp256k1 curve ops.")
+    0
+}
